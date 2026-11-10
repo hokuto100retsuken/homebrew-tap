@@ -1,24 +1,24 @@
 class Flock < Formula
   desc "Zellij sidebar that shows what each Claude Code agent is doing"
   homepage "https://github.com/hokuto100retsuken/flock"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hokuto100retsuken/flock/releases/download/v0.1.4/flock-aarch64-apple-darwin.tar.gz"
-      sha256 "f893787a898b330ae6b112d1752efa82dd2508a5b7924b415707de688ad57523"
+      url "https://github.com/hokuto100retsuken/flock/releases/download/v0.1.5/flock-aarch64-apple-darwin.tar.gz"
+      sha256 "bbc86d3218a92880755be0c2a95edbdd273911a829405d1c1d449afdd5f713b4"
     end
     on_intel do
-      url "https://github.com/hokuto100retsuken/flock/releases/download/v0.1.4/flock-x86_64-apple-darwin.tar.gz"
-      sha256 "141d8faaada6526a047d565d77716577ff5367c4263669f2d41923d3b030ce1e"
+      url "https://github.com/hokuto100retsuken/flock/releases/download/v0.1.5/flock-x86_64-apple-darwin.tar.gz"
+      sha256 "3395e569969b882bb51e4e15c501f2a24abaf2e79efa77695132e1bd11db05ee"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/hokuto100retsuken/flock/releases/download/v0.1.4/flock-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5f23ef1db106424563e663b25519235d857c571a7056c1004420005c551ea7a6"
+      url "https://github.com/hokuto100retsuken/flock/releases/download/v0.1.5/flock-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f3204a492fed2f310322824da7dfd3e2a5eb9313fa2f572ecac8cc604f4a9338"
     end
   end
 
